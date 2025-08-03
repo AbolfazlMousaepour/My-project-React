@@ -1,0 +1,56 @@
+.ghost-input-container {
+  width: 100%;
+  margin-bottom: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  direction: Ltr; 
+}
+
+.ghost-input-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+
+.ghost-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+
+.ghost-input-real,
+.ghost-input-suggestion {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box; 
+  white-space: nowrap;
+  overflow: hidden; 
+}
+
+
+.ghost-input-real {
+  position: relative;
+  z-index: 2; 
+  background-color: transparent;
+  color: #000;
+}
+
+
+.ghost-input-suggestion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+  color: #333;
+  pointer-events: none; 
+}
+
+
+.ghost-input-suggestion .suggestion-text {
+  opacity: 0.5;
+}
