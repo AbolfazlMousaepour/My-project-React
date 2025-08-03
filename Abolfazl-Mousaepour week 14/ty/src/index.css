@@ -1,0 +1,93 @@
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background-color: #f1f5f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e0;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+button:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #357ab8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-item input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.edit-button {
+  background-color: #ecc94b;
+}
+
+.delete-button {
+  background-color: #e53e3e;
+}
+
+.message {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #2f855a;
+}
+
+.error-text {
+  font-size: 14px;
+  color: #e53e3e;
+  margin-bottom: 8px;
+}
