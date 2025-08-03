@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+} 
+
+.lop {
+  font-family: Arial, sans-serif;
+}
+
+.dra {
+  background-color: #1ec6f0;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+.nop {
+  display: flex;
+  background-color:#1ec6f0 ;
+}
+
+.nop {
+  padding: 14px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.nop.tyu {
+  border-bottom: 3px solid yellow;
+  color: yellow;
+}
+
+.join {
+  background-color: #114abc;
+  color: white;
+  padding: 20px;
+  height: 540px;
+}
